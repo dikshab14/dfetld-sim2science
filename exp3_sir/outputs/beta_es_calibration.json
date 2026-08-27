@@ -1,0 +1,14 @@
+{
+ "beta_es": 4.377316332949599,
+ "beta_ref_ks": 10.0,
+ "median_ratio": 0.4377316332949599,
+ "ratio_iqr": [
+  0.3766948877090954,
+  0.47187278659987714
+ ],
+ "n_pairs": 300,
+ "m": 24,
+ "gamma": 2.1456526971484435,
+ "sim_calls": 14400,
+ "method": "Pacchiardi et al. Sec 4.2 (Bayes-factor matching)"
+}

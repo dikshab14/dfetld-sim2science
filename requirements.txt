@@ -1,0 +1,7 @@
+# Everything is numpy; scipy is used only by exp3_sir/plots.py
+# (gaussian_kde). Versions used for the paper's runs:
+#   Python 3.9, numpy 2.0.2, scipy 1.13.1, matplotlib 3.9.4
+# Any reasonably recent versions work.
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7

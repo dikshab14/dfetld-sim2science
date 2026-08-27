@@ -1,0 +1,23 @@
+{
+ "dfr": {
+  "seconds": 27.147506625000002,
+  "calls": 500000
+ },
+ "abc": {
+  "seconds": 9.154592958000002,
+  "calls": 250000
+ },
+ "abcs": {
+  "seconds": 10.979797083000001,
+  "calls": 250000
+ },
+ "ad": {
+  "seconds": 936.086928584,
+  "calls": 4000000
+ },
+ "adk": {
+  "seconds": 951.0800446669999,
+  "calls": 4000000
+ },
+ "_note": "per-method wall-clock on observation set 0 at production settings (M=100, J=10, 500 steps; ABC 1000x10x25; adSGLD m=200, 20000 steps), single process, same hardware"
+}

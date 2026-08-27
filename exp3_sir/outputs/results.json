@@ -1,0 +1,44 @@
+{
+ "post_mean_dfetld": [
+  0.14754619061726676,
+  0.12110463199677839
+ ],
+ "post_mean_abc": [
+  0.2373901063504477,
+  0.2125717815603911
+ ],
+ "post_mean_adsgld": [
+  0.1937094208352665,
+  0.1682441097837022
+ ],
+ "truth": [
+  0.15,
+  0.1
+ ],
+ "obs_autocorr": 0.9938580947801908,
+ "predictive_z": {
+  "mean": 0.3053947523119521,
+  "median": -0.1346702860589538,
+  "max": 0.677286376404804,
+  "max day": -0.04378853721517431,
+  "half day": 0.12059450209188782,
+  "autocorr": -1.0335679575206185
+ },
+ "abc_note": "SMC-ABC re-run with corrected importance weights (prior density restored); other arms unchanged",
+ "post_mean_adsgld_unconverged_1chain": [
+  0.1813917774163164,
+  0.15841723936005322
+ ],
+ "adsgld_convergence": {
+  "n_chains": 4,
+  "n_steps": 16000,
+  "J": 24,
+  "sim_calls": 6144000,
+  "wallclock_s": 2574.0,
+  "split_rhat": [
+   1.0146,
+   1.0137
+  ],
+  "note": "the previous value came from a SINGLE 2000-step chain with no convergence check and was optimistic (err 0.066 vs 0.081 converged); split-Rhat 1.015 is marginally above the strict 1.01 bar"
+ }
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "method": "DF-ETLD (ours)",
+  "sim_calls": 1500000,
+  "wallclock_s": 168.628625167,
+  "notes": "M=50, J=20, 1500 steps; tame=0.08; no simulator derivatives"
+ },
+ {
+  "method": "DF-ETLD @ 10k-call budget",
+  "sim_calls": 10000,
+  "wallclock_s": 8.414854875000003,
+  "notes": "small-budget run: 10,000 simulator calls"
+ },
+ {
+  "method": "SMC-ABC (6 summaries)",
+  "sim_calls": 88000,
+  "wallclock_s": 577.271948042,
+  "notes": "run to convergence (tolerance plateau); pop=200, m=20"
+ },
+ {
+  "method": "adSGLD-KS (FD-gradient proxy)",
+  "sim_calls": 6144000,
+  "wallclock_s": 2574.0,
+  "notes": "4 chains x 16000 steps, J=24; FD gradients; KERNEL score; beta=10; RUN TO CONVERGENCE (split-Rhat 1.015). The earlier single 2000-step chain (192,000 calls) was NOT converged and gave an optimistic 0.066 vs 0.081"
+ },
+ {
+  "method": "adSGLD-ES (FD-gradient proxy)",
+  "sim_calls": 6144000,
+  "wallclock_s": 2759.0,
+  "notes": "4 chains x 16000 steps, J=24; FD gradients; ENERGY score (scale-free: no bandwidth); beta=4.38 by Bayes-factor matching; RUN TO CONVERGENCE (split-Rhat 1.012)"
+ }
+]

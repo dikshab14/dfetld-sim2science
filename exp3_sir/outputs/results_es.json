@@ -1,0 +1,28 @@
+{
+ "post_mean_adsgld_es": [
+  0.2145137685348716,
+  0.18956037675952497
+ ],
+ "post_sd_adsgld_es": [
+  0.09512430133417622,
+  0.09454369288156074
+ ],
+ "truth": [
+  0.15,
+  0.1
+ ],
+ "err_norm": 0.11037702394918542,
+ "beta": 4.377316332949599,
+ "beta_method": "Pacchiardi et al. Sec 4.2 (Bayes-factor matching)",
+ "sim_calls": 6144000,
+ "wallclock_s": 2759.0,
+ "n_chains": 4,
+ "n_steps": 16000,
+ "J": 24,
+ "split_rhat": [
+  1.0119,
+  1.0115
+ ],
+ "draws": 32000,
+ "convergence": "4 chains x 16000 steps; running mean stable over the last 3 quarters; split-Rhat 1.012, marginally above the strict 1.01 bar"
+}
